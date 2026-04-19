@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Styling the links (Navigation) */
+.header a {
+    color: white;
+    text-decoration: none; /* Removes the underline */
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.header a:hover {
+    text-decoration: underline; /* Shows underline when you point at it */
+}
+
+.main-content {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Smooths the corners */
+}
+
+h2, h3 {
+    color: orange;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}
