@@ -13,16 +13,15 @@ body {
     padding: 40px;
 }
 
-/* Styling the links (Navigation) */
 .header a {
     color: white;
-    text-decoration: none; /* Removes the underline */
+    text-decoration: none; 
     font-weight: bold;
     margin: 0 10px;
 }
 
 .header a:hover {
-    text-decoration: underline; /* Shows underline when you point at it */
+    text-decoration: underline;
 }
 
 .main-content {
@@ -31,7 +30,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px; /* Smooths the corners */
+    ;
 }
 
 h2, h3 {
